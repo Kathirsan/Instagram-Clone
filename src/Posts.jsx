@@ -11,10 +11,21 @@ function Posts() {
         catch(err=>console.log(err))
     
 
-    });
+    },[]);
 
   return (
-    <div>Posts</div>
+    <div>
+        {post.length >0 ?(
+            <div>
+                Posts
+            </div>
+        ):(
+            <div>
+                Loading Posts
+            </div>
+        )
+    }
+        </div>
   )
 }
 

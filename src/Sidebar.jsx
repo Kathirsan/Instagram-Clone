@@ -18,8 +18,8 @@ function Sidebar() {
     </div>
 
     <div className='position-fixed bottom-0 d-flex flex-column gap-3 mb-3'>
-      <div><i class="bi bi-threads"></i>Threads</div>
-      <div><i class="bi bi-three-dots-vertical "></i>More</div>
+      <div><i className="bi bi-threads"></i>Threads</div>
+      <div><i className="bi bi-three-dots-vertical "></i>More</div>
     </div>
 
     </div>

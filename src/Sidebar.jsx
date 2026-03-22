@@ -4,7 +4,7 @@ import App from './App'
 function Sidebar() {
   return (
     <div>
-        <img src="" alt="" />
+        <img src="src/assets/text.png" alt="" />
     </div>
   )
 }

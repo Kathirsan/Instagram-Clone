@@ -4,6 +4,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
+    <>
     <div>
         <img className="logo-text" src="src/assets/instagram-text.png" alt="" />
         <div>Home</div>
@@ -15,6 +16,12 @@ function Sidebar() {
         <div>Create</div>
         <div>Profile</div>
     </div>
+
+    <div>
+      <div>Threads</div>
+      <div>More</div>
+    </div>
+    </>
     
   )
 }

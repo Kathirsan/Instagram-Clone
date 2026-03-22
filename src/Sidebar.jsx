@@ -19,7 +19,7 @@ function Sidebar() {
 
     <div>
       <div><i class="bi bi-threads"></i>Threads</div>
-      <div>More</div>
+      <div><i class="bi bi-three-dots-vertical"></i>More</div>
     </div>
     </>
     

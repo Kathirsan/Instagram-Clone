@@ -17,7 +17,13 @@ function Posts() {
     <div>
         {post.length >0 ?(
             <div>
-                Posts
+            {posts.map((post)=>(
+                <div key={post.key}>
+                    {post.id}
+
+                </div>
+
+            ))}
             </div>
         ):(
             <div>

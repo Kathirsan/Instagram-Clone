@@ -4,8 +4,8 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <>
-    <div className='d-flex flex-column'>
+    <div className="m-3">
+    <div className='d-flex flex-column gap-3'>
         <img className="logo-text" src="src/assets/instagram-text.png" alt="" />
         <div><i class="bi bi-house-door"></i>Home</div>
         <div><i class="bi bi-search"></i>Search</div>
@@ -17,11 +17,12 @@ function Sidebar() {
         <div><i class="bi bi-person-circle"></i>Profile</div>
     </div>
 
-    <div>
+    <div className='position-fixed bottom-0 d-flex flex-column gap-3 mb-3'>
       <div><i class="bi bi-threads"></i>Threads</div>
-      <div><i class="bi bi-three-dots-vertical"></i>More</div>
+      <div><i class="bi bi-three-dots-vertical "></i>More</div>
     </div>
-    </>
+
+    </div>
     
   )
 }

@@ -1,0 +1,29 @@
+{
+"posts": [
+  {
+    "id": 1,
+    "username": "travel_explorer",
+    "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix",
+    "postImage": "https://picsum.photos/id/10/600/600",
+    "caption": "Beautiful morning in the mountains! 🏔️ #nature #travel",
+    "likes": 1240,
+    "timestamp": "2 hours ago",
+    "comments": [
+      { "id": 101, "username": "user123", "text": "Wow, amazing view!" },
+      { "id": 102, "username": "photography_fan", "text": "Great shot!" }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "tech_guru",
+    "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aneka",
+    "postImage": "https://picsum.photos/id/2/600/600",
+    "caption": "Coding my new React project. Loving the progress! 💻",
+    "likes": 850,
+    "timestamp": "5 hours ago",
+    "comments": [
+      { "id": 201, "username": "dev_buddy", "text": "Keep it up!" }
+    ]
+  }
+]
+}

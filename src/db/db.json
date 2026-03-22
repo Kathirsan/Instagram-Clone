@@ -1,29 +1,42 @@
-{
-"posts": [
-  {
-    "id": 1,
-    "username": "travel_explorer",
-    "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix",
-    "postImage": "https://picsum.photos/id/10/600/600",
-    "caption": "Beautiful morning in the mountains! 🏔️ #nature #travel",
-    "likes": 1240,
-    "timestamp": "2 hours ago",
-    "comments": [
-      { "id": 101, "username": "user123", "text": "Wow, amazing view!" },
-      { "id": 102, "username": "photography_fan", "text": "Great shot!" }
-    ]
-  },
-  {
-    "id": 2,
-    "username": "tech_guru",
-    "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aneka",
-    "postImage": "https://picsum.photos/id/2/600/600",
-    "caption": "Coding my new React project. Loving the progress! 💻",
-    "likes": 850,
-    "timestamp": "5 hours ago",
-    "comments": [
-      { "id": 201, "username": "dev_buddy", "text": "Keep it up!" }
-    ]
+ {
+  "posts": [
+    {
+      "id": "1",
+      "username": "nature_lover",
+      "userImage": "https://i.pravatar.cc/150?u=1",
+      "postImage": "https://picsum.photos/id/1018/600/600",
+      "caption": "Exploring the mountains today! 🌲 #hiking",
+      "likes": 120,
+      "timestamp": "2026-03-22T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "username": "react_coder",
+      "userImage": "https://i.pravatar.cc/150?u=2",
+      "postImage": "https://picsum.photos/id/1/600/600",
+      "caption": "Building an Instagram clone with React. #coding",
+      "likes": 85,
+      "timestamp": "2026-03-23T08:30:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "username": "travel_fan",
+      "text": "This looks so peaceful!"
+    },
+    {
+      "id": "2",
+      "postId": "1",
+      "username": "mike_smith",
+      "text": "I want to go there too!"
+    }
+  ],
+  "profile": {
+    "name": "Kathirsan",
+    "bio": "Software Engineering Student | Learning React",
+    "followers": 500,
+    "following": 300
   }
-]
 }

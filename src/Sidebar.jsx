@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <div>
+        <img src="D:\React\Instagram\src\assets\instagram-text.png" alt="" />
+    </div>
   )
 }
 

@@ -1,12 +1,19 @@
 import React from 'react'
-import App from './App'
+//import App from './App'
 
 
 function Sidebar() {
   return (
     <div>
-        <img src="src/assets/text.png" alt="" />
-        
+        <img className="logo-text" src="src/assets/instagram-text.png" alt="" />
+        <div>Home</div>
+        <div>Search</div>
+        <div>Explore</div>
+        <div>Reels</div>
+        <div>Message</div>
+        <div>Notification</div>
+        <div>Create</div>
+        <div>Profile</div>
     </div>
     
   )

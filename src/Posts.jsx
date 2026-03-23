@@ -19,7 +19,11 @@ function Posts() {
             <div>
             {posts.map((post)=>(
                 <div key={post.id}>
-                    {post.id}
+                   <div>
+                    <img className="rounded-circle d-flex" src="" alt="orofile picture" />
+                    <h5>{post.user.username}</h5>
+                    </div> 
+                    <img src="postImage" alt="post" />
 
                 </div>
 

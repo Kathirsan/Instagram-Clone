@@ -8,7 +8,7 @@ function Sidebar() {
     <div className='d-flex flex-column gap-3'>
         <img className="logo-text" src="src/assets/instagram-text.png" alt="" />
         <div><i className="bi bi-house-door"></i>Home</div>
-        <div><i className="bi bi-search"></i>Searches</div>
+        <div><i className="bi bi-search"></i>Search</div>
         <div><i className="bi bi-compass"></i>Explore</div>
         <div><i className="bi bi-play-circle-fill"></i>Reels</div>
         <div><i className="bi bi-chat-dots"></i>Message</div>

@@ -8,7 +8,7 @@ function Feed() {
         <div><Stories/></div>
         <div><Posts/></div>
     </div>
-  )
+  ) 
 }
 
 export default Feed

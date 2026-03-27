@@ -10,8 +10,8 @@ function Sidebar() {
         <div><i className="bi bi-house-door"></i>Home</div>
         <div><i className="bi bi-search"></i>Search</div>
         <div><i className="bi bi-compass"></i>Explore</div>
-        <div><i className="bi bi-play-circle-fill"></i>Reels</div>
-        <div><i className="bi bi-chat-dots"></i>Messge</div>
+        <div><i className="bi bi-play-circle-fill"></i>Rees</div>
+        <div><i className="bi bi-chat-dots"></i>Message</div>
         <div><i className="bi bi-suit-heart"></i>Notification</div>
         <div><i className="bi bi-plus-square"></i>Create</div>
         <div><i className="bi bi-person-circle"></i>Profile</div>
